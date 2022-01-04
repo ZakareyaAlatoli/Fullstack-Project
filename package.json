@@ -2,7 +2,7 @@
   "name": "Fullstack-Project",
   "version": "1.0.0",
   "description": "A project to learn the fullstack workflow",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "devStart": "nodemon server.js"
@@ -12,13 +12,14 @@
     "url": "git+https://github.com/ZakareyaAlatoli/Fullstack-Project.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zakareya Alatoli",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ZakareyaAlatoli/Fullstack-Project/issues"
   },
   "homepage": "https://github.com/ZakareyaAlatoli/Fullstack-Project#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "express-ejs-layouts": "^2.5.1",
